@@ -10319,10 +10319,10 @@ hr.small {
   background-color: #ef4035;
 }
 
-.process-list {
+.service-list {
   position: relative;
 }
-.process-list .process-list-icon {
+.service-list .service-list-icon {
   top: 0;
   left: 0;
   position: absolute;
@@ -10334,14 +10334,14 @@ hr.small {
   line-height: 4rem;
   font-size: 1.5rem;
 }
-.process-list .process-list-content {
+.service-list .service-list-content {
   padding-left: 5.5rem;
 }
-.process-list .process-list-content ul {
+.service-list .service-list-content ul {
   padding-left: 1.2rem;
   margin-bottom: 0;
 }
-.process-list .process-list-content ul li {
+.service-list .service-list-content ul li {
   font-size: 1rem;
   margin-bottom: 0.75rem;
 }
