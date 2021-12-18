@@ -10324,7 +10324,7 @@ hr.small {
 }
 .service-list .service-list-icon {
   top: 0;
-  left: 0;
+  left: -30px;
   position: absolute;
   height: 6.5rem;
   width: 6.5rem;
