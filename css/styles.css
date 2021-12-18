@@ -10326,8 +10326,8 @@ hr.small {
   top: 0;
   left: 0;
   position: absolute;
-  height: 6.5rem;
-  width: 6.5rem;
+  height: 4.5rem;
+  width: 4.5rem;
   text-align: center;
   line-height: 6rem;
   font-size: 1.5rem;
@@ -10335,11 +10335,7 @@ hr.small {
 .service-list .service-list-content {
   padding-left: 5.5rem;
 }
-.service-list .service-list-content ul {
-  padding-left: 1.2rem;
-  margin-bottom: 0;
-}
-.service-list .service-list-content ul li {
+.service-list .service-list-content p {
   font-size: 1rem;
   margin-bottom: 0.75rem;
 }
