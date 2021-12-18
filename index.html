@@ -172,21 +172,31 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
-
-    <label>
-    Your Phone Number:
-    <input type="tel" name="number">
-  </label>
-  <label>
-    Your email:
-    <input type="email" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
+                        <div class="row control-group">
+                            <div class="form-group col-12 floating-label-form-group controls">
+                                <label>Phone Number</label>
+                                <input id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-12 floating-label-form-group controls">
+                                <label>Email Address</label>
+                                <input id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-12 floating-label-form-group controls">
+                                <label>Message</label>
+                                <textarea id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br />
+                        <div id="success"></div>
   <!-- your other form fields go here -->
-  <button type="submit">Send</button>
+<div><button class="btn btn-outline-primary" type="submit">Send</button></div>
 </form>
                 </div>
             </div>
