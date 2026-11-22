@@ -1,36 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<call-us 
-phonesystem-url="https://peaktech.tx.3cx.us:5001" 
-style="position:fixed;font-family: Arial;z-index: 99999;--call-us-form-height:28.5vh;right: 20px; bottom: 20px;" 
-id="wp-live-chat-by-3CX" 
-minimized="true" 
-animation-style="noanimation" 
-party="LiveChat501816" 
-minimized-style="BubbleRight" 
-allow-call="true" 
-allow-video="false" 
-allow-soundnotifications="true" 
-enable-mute="true" 
-enable-onmobile="true" 
-offline-enabled="true" 
-enable="true" 
-ignore-queueownership="false" 
-authentication="both" 
-show-operator-actual-name="true" 
-channel="phone" 
-aknowledge-received="true" 
-gdpr-enabled="false" 
-message-userinfo-format="both" 
-message-dateformat="both" 
-lang="browser" 
-button-icon-type="default" 
-greeting-visibility="none" 
-greeting-offline-visibility="none" 
-chat-delay="2000" 
-enable-direct-call="true" 
-enable-ga="false" 
-></call-us>
     <head>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -47,228 +16,629 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#212529" />
-		<meta property="og:locale" content="en_US" />
-		<meta property="og:type" content="website" />
-        <meta name="description" content="Peak Technology Services is a trusted IT services provider headquartered in The Woodlands, TX, serving Houston, The Woodlands, and San Antonio. We provide Desktop Support, IT Security, and more. Call us now 210-609-1937" />
-        <meta name="author" content="contact@peaktechsvc.com" />
-		<meta property="article:modified_time" content="2021-12-19" />
-		<meta property="og:url" content="https://www.peaktechsvc.com/" />
-		<meta property="og:title" content="Peak Technology Services: Managed IT Service Provider" />
-        <title>Peak Technology Services: Managed IT Service Provider</title>
-        <!-- Custom fonts for this theme -->
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta name="description" content="Veteran-owned managed IT for small businesses in the San Antonio and Houston areas, headquartered in The Woodlands. Help desk, cybersecurity, Microsoft 365 and backups, 24/7. Call 210-609-1937." />
+        <meta name="author" content="john@peaktechsvc.com" />
+        <meta property="article:modified_time" content="2026-11-22" />
+        <meta property="og:url" content="https://peaktechsvc.com/" />
+        <meta property="og:title" content="Peak Technology Services | Managed IT Support for Small Businesses" />
+        <link rel="canonical" href="https://peaktechsvc.com/" />
+        <title>Peak Technology Services | Managed IT Support for Small Businesses</title>
         <link href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" rel="stylesheet" crossorigin="anonymous" />
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" />
-        <!-- Plugin styles-->
         <link href="assets/plugins/fancybox/jquery.fancybox.min.css" rel="stylesheet" />
         <link href="assets/plugins/html5-device-mockups/dist/device-mockups.min.css" rel="stylesheet" />
         <link href="assets/plugins/slick-carousel/slick.css" rel="stylesheet" />
-        <!-- Custom styles for this theme-->
         <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            .masthead .masthead-title {
+                font-size: 2rem;
+                line-height: 1.15;
+            }
+            .masthead .masthead-subtitle {
+                max-width: 46rem;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @media (min-width: 992px) {
+                .masthead .masthead-title {
+                    font-size: 3.25rem;
+                    line-height: 1.15;
+                }
+            }
+            .masthead-cta .btn {
+                margin: 0.35rem;
+            }
+            .about-photo {
+                width: 220px;
+                height: 220px;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+            #cybersecurity .page-section-heading {
+                font-size: 2rem;
+            }
+            @media (min-width: 992px) {
+                #cybersecurity .page-section-heading {
+                    font-size: 2.5rem;
+                }
+            }
+            .masthead .masthead-eyebrow {
+                font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+                font-size: 0.85rem;
+                font-weight: 700;
+                letter-spacing: 0.08em;
+                margin-bottom: 0.85rem;
+                opacity: 0.95;
+            }
+            @media (min-width: 992px) {
+                .masthead .masthead-eyebrow {
+                    font-size: 1rem;
+                    letter-spacing: 0.1em;
+                }
+            }
+            .booking-card { max-width: 46rem; background: #fff; color: #212529; border-radius: 0.5rem; padding: 1.75rem; box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.2); }
+            .booking-card label { font-weight: 600; font-size: 0.95rem; }
+            .booking-card .btn { width: 100%; }
+            .bf-hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+        </style>
+        <script type="application/ld+json">
+{
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Peak Technology Services",
+        "description": "Veteran-owned managed IT for small businesses in the San Antonio and Houston areas, headquartered in The Woodlands. Help desk, cybersecurity, Microsoft 365 and backups, 24/7. Call 210-609-1937.",
+        "url": "https://peaktechsvc.com/",
+        "telephone": "+1-210-609-1937",
+        "email": "john@peaktechsvc.com",
+        "image": "https://peaktechsvc.com/assets/img/Logo-04-wh.png",
+        "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "8708 Technology Forest Pl, Suite 175",
+                "addressLocality": "The Woodlands",
+                "addressRegion": "TX",
+                "postalCode": "77381",
+                "addressCountry": "US"
+        },
+        "areaServed": [
+                {
+                        "@type": "Place",
+                        "name": "San Antonio, TX"
+                },
+                {
+                        "@type": "Place",
+                        "name": "Houston, TX"
+                },
+                {
+                        "@type": "Place",
+                        "name": "The Woodlands, TX"
+                }
+        ],
+        "founder": {
+                "@type": "Person",
+                "name": "John Cranford"
+        },
+        "sameAs": [
+                "https://www.facebook.com/peaktechsvc"
+        ]
+}
+        </script>
     </head>
-</html>
-<body id="page-top">
+    <body id="page-top">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JBPGKK"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-    <!-- * * * * * * * *-->
-    <!-- * Navigation  *-->
-    <!-- * * * * * * * *-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar-main">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="navbar-brand-logo" src="assets/img/Logo-04-wh.png" alt="" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#service">Services</a></li>
-					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="http://help.peaktechsvc.com">Support</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- * * * * * * *-->
-    <!-- * Masthead *-->
-    <!-- * * * * * * *-->
-    <header class="masthead masthead-full text-white">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col text-center">
-                    <img class="masthead-logo mb-4" src="assets/img/Logo-ICO-wh.png" alt="" />
-                    <div class="masthead-title text-uppercase">Peak Technology Services</div>
-                    <hr class="primary small" />
-                    <div class="masthead-subtitle">Experienced, Strategic, Business IT Consulting</div>
-					<p>210-609-1937</p>
+<call-us
+phonesystem-url="https://peaktech.tx.3cx.us:5001"
+style="position:fixed;font-family: Arial;z-index: 99999;--call-us-form-height:28.5vh;right: 20px; bottom: 20px;"
+id="wp-live-chat-by-3CX" minimized="true" animation-style="noanimation" party="LiveChat501816"
+minimized-style="BubbleRight" allow-call="true" allow-video="false" allow-soundnotifications="true"
+enable-mute="true" enable-onmobile="true" offline-enabled="true" enable="true" ignore-queueownership="false"
+authentication="both" show-operator-actual-name="true" channel="phone" aknowledge-received="true"
+gdpr-enabled="false" message-userinfo-format="both" message-dateformat="both" lang="browser"
+button-icon-type="default" greeting-visibility="none" greeting-offline-visibility="none" chat-delay="2000"
+enable-direct-call="true" enable-ga="false"></call-us>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar-main">
+            <div class="container">
+                <a href="#page-top" class="navbar-brand js-scroll-trigger"><img class="navbar-brand-logo" src="assets/img/Logo-04-wh.png" alt="Peak Technology Services" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#approach">How we work</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#plan">Managed plan</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#industries">Who we help</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#security">Security</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="http://help.peaktex.com">Support</a></li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div class="masthead-scroll">
-            <a class="masthead-scroll-btn js-scroll-trigger" href="#about"><i class="fas fa-angle-down"></i></a>
-        </div>
-    </header>
-    <!-- * * * * * * * * *-->
-    <!-- * About Section *-->
-    <!-- * * * * * * * * *-->
-    <section class="page-section text-center" id="about">
-        <div class="container-fluid">
-            <h1 class="page-section-heading text-uppercase">Providing Tech Support for Businesses</h1>
-            <p class="lead">We are a tailor-made solution to simplify your business IT requirements. Headquartered in The Woodlands, we serve Houston, The Woodlands, and the greater San Antonio area — local and 24x7.</p>
-               
-			<hr class="primary small mb-5" />
-            <div class="row">
-                <div class="col-md-6 col-xl-3 px-md-5 mb-4 mb-xl-0">
-                    <i class="fas fa-code fa-4x mb-3"></i>
-                    <h4 class="text-uppercase">Automation</h4>
-                    <p>Peak Tech Services reduces your business costs by automating support where possible.</p>
-                </div>
-				<div class="col-md-6 col-xl-3 px-md-5 mb-4 mb-xl-0">
-                    <i class="	far fa-paper-plane fa-4x mb-3"></i>
-                    <h4 class="text-uppercase">Easy to Use</h4>
-                    <p>Call, Text, Email. We are available to meet your needs 24x7x365!</p>
-                </div>
-                <div class="col-md-6 col-xl-3 px-md-5 mb-4 mb-xl-0">
-                    <i class="fas fa-mobile fa-4x mb-3"></i>
-                    <h4 class="text-uppercase">Responsive</h4>
-                    <p>In today's world where devices come in every shape and size, we will support you 24x7x365 not just "9-5"!</p>
-                </div>
-                <div class="col-md-6 col-xl-3 px-md-5">
-                    <i class="fas fa-heart fa-4x mb-3"></i>
-                    <h4 class="text-uppercase">IT Health Check</h4>
-                    <p>We provide regular updates on the health of your Technology, if there is an issue, you will be aware and it will be fixed ASAP!</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- * * * * * * * * * *-->
-    <!-- * Services Section *-->
-    <!-- * * * * * * * * * *-->
-	<a class="masthead-scroll-btn js-scroll-trigger" href="#service"><i class="fas fa-angle-down"></i></a>
-    <section class="page-section" id="services">
-        <div class="container">
-            <h2 class="page-section-heading text-uppercase text-center">Our Services</h2>
-            <p class="lead m-0 text-center">Here is an overview of a few services we can provide.</p>
-            <hr class="primary small mb-5" />
-            <div class="row">
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <div class="service-list">
-                        <div class="service-list-icon"><i class="fas fa-drafting-compass fa-3x"></i></div>
-                        <div class="service-list-content">
-                            <h4 class="text-uppercase text-center mb-3">Plan</h4>
-                            <p>Custom plan of action, let us come to your location and evaluate how you work and we will tailor a solution that will work best for you. Test</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <div class="service-list">
-                        <div class="service-list-icon"><i class="fas fa-desktop fa-3x"></i></div>
-                        <div class="service-list-content">
-                            <h4 class="text-uppercase text-center mb-3">Desktop Support</h4>
-                            <p>Don't have an IT Department? Thats okay, full time IT departments are expensive and in most cases unnecessary, thats why we are here to serve you when you need us most.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="service-list">
-                        <div class="service-list-icon"><i class="fas fa-cloud fa-3x"></i></div>
-                        <div class="service-list-content">
-                            <h4 class="text-uppercase text-center mb-3">Cloud Services</h4>
-                            <p>Data should be securely accessible from anywhere. We will find the best cloud solutions for your company so you can do what you do best, even if you are working from home.</p>
-                        </div>
-                    </div>
-                </div>
-				<div class="col-lg-4">
-                    <div class="service-list">
-                        <div class="service-list-icon"><i class="fas fa-lock fa-3x"></i></div>
-                        <div class="service-list-content">
-                            <h4 class="text-uppercase text-center mb-3">IT Security</h4>
-                            <p>We provide excellent security solutions, from access control to top tier firewalls. Need to be PCI/HIPAA Compliant? Book us today for a security consultation.</p>
-                        </div>
-                    </div>
-                </div>
-				<div class="col-lg-4">
-                    <div class="service-list">
-                        <div class="service-list-icon"><i class="fas fa-wifi fa-3x"></i></div>
-                        <div class="service-list-content">
-                            <h4 class="text-uppercase text-center mb-3">Network Infrastructure</h4>
-                            <p>This is foundation upon which most businesses are built today. We can setup, implement and support your network, including your company WIFI.</p>
-                        </div>
-                    </div>
-                </div>
-				<div class="col-lg-4">
-                    <div class="service-list">
-                        <div class="service-list-icon"><i class="far fa-hdd fa-3x"></i></div>
-                        <div class="service-list-content">
-                            <h4 class="text-uppercase text-center mb-3">Data Backup</h4>
-                            <p>Does your company have data backups or a disaster recovery plan. Can your business afford a Ransomware attack that can cripple your technology? Let us help develop a disaster recovery plan and find a backup solution that fits your budget.</p>
+        </nav>
+        <header class="masthead masthead-full text-white">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col text-center">
+                        <img class="masthead-logo mb-4" src="assets/img/Logo-ICO-wh.png" alt="" />
+                        <div class="masthead-eyebrow text-uppercase">Veteran-owned IT support · San Antonio and Houston areas</div>
+                        <h1 class="masthead-title text-uppercase">Your IT, handled by people who pick up the phone.</h1>
+                        <hr class="primary small" />
+                        <div class="masthead-subtitle">From the first login of the day to the backup that runs overnight, Peak Technology Services looks after the computers, networks, security, and data of small businesses across the San Antonio and Houston areas. If something breaks at 2 a.m., we're on call 24/7.</div>
+                        <div class="masthead-cta mt-4">
+                            <a class="btn btn-primary btn-lg" href="#assessment">Schedule a free IT assessment</a>
+                            <a class="btn btn-outline-light btn-lg" href="tel:+12106091937">Call 210-609-1937</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- * * * * * * * * * * * * * * *-->
-    <!-- * Callout Section - Signup  *-->
-    <!-- * * * * * * * * * * * * * * *-->
-
-    <!-- * * * * * * * * * * * * * * *-->
-    <!-- * Callout Section - Button  *-->
-    <!-- * * * * * * * * * * * * * * *-->
-    <!-- * * * * * *-->
-    <!-- * Footer  *-->
-    <!-- * * * * * *-->
-    <footer class="footer text-center text-white-50">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h5 class="text-uppercase">
-                        <i class="fas fa-mobile-alt fa-fw"></i>
-                        Call
-                    </h5>
-                    <a class="text-white-50" href="#">210-609-1937</a>
+            <div class="masthead-scroll">
+                <a class="masthead-scroll-btn js-scroll-trigger" href="#approach"><i class="fas fa-angle-down"></i></a>
+            </div>
+        </header>
+        <section class="page-section text-center" id="approach">
+            <div class="container">
+                <h2 class="page-section-heading text-uppercase">How we work with you</h2>
+                <p class="lead">A full-time IT staff rarely makes sense for a small business. A local partner who knows your systems, responds quickly, and stops problems before they spread usually does.</p>
+                <hr class="primary small mb-5" />
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-xl-4 px-md-5 mb-4">
+                        <i class="fas fa-headset fa-4x mb-3"></i>
+                        <h3 class="h4 text-uppercase">Fast answers, day or night</h3>
+                        <p>Support is available 24/7, with response times of 15-60 minutes, so a problem at 7 p.m. doesn't wait for the next business day.</p>
+                    </div>
+                    <div class="col-md-6 col-xl-4 px-md-5 mb-4">
+                        <i class="fas fa-tags fa-4x mb-3"></i>
+                        <h3 class="h4 text-uppercase">Simple per-user pricing</h3>
+                        <p>Routine support doesn't come with surprise invoices. Managed plans are a flat monthly rate per user, starting at $70 per user per month, on a 12-month agreement with a $1,000 monthly minimum. Before you sign anything, we'll go over what you actually need.</p>
+                        <p class="small">Example: 15 users × $70 = $1,050 per month. Teams of 14 or fewer pay the $1,000 minimum.</p>
+                    </div>
+                    <div class="col-md-6 col-xl-4 px-md-5 mb-4">
+                        <i class="fas fa-map-marker-alt fa-4x mb-3"></i>
+                        <h3 class="h4 text-uppercase">Headquartered in The Woodlands</h3>
+                        <p>We're based in The Woodlands, work with businesses across the Houston, The Woodlands, and San Antonio areas, and are members of the Schertz Chamber of Commerce. Call, text, or email whenever you need us — 24/7, not just business hours.</p>
+                    </div>
+                    <div class="col-md-6 col-xl-4 px-md-5 mb-4">
+                        <i class="fas fa-heartbeat fa-4x mb-3"></i>
+                        <h3 class="h4 text-uppercase">Problems caught early</h3>
+                        <p>We monitor your systems in the background and send regular updates on the health of your technology. If something looks off, you'll hear from us, and we'll fix it.</p>
+                    </div>
+                    <div class="col-md-6 col-xl-4 px-md-5 mb-4">
+                        <i class="fas fa-clipboard-list fa-4x mb-3"></i>
+                        <h3 class="h4 text-uppercase">Built around your workflow</h3>
+                        <p>We start at your office, watching how your team gets work done, then design the plan around that — not a one-size package you have to fit into.</p>
+                    </div>
                 </div>
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h5 class="text-uppercase">
-                        <i class="fas fa-map-marker-alt fa-fw"></i>
-                        Our Office
-                    </h5>
-                    <div>
-                        Houston/The Woodlands Office<br />
+            </div>
+        </section>
+        <section class="page-section bg-light" id="plan">
+            <div class="container">
+                <h2 class="page-section-heading text-uppercase text-center">Inside every managed plan</h2>
+                <p class="lead text-center">Help desk, proactive maintenance, security, Microsoft 365, backups, and planning — all covered by one monthly per-user price.</p>
+                <hr class="primary small mb-5" />
+                <div class="row">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <h3 class="h4 text-uppercase mb-4">Help desk</h3>
+                        <div class="service-list mb-4">
+                            <div class="service-list-icon"><i class="fas fa-headset fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h4 class="text-uppercase mb-2">Remote support with no cap</h4>
+                                <p>Call as often as you need. We handle VPN, remote desktop, webmail, and staff home computers that connect to the office — and if a fix can't be done remotely, we come to you.</p>
+                            </div>
+                        </div>
+                        <h3 class="h4 text-uppercase mb-4 mt-5">Proactive care</h3>
+                        <div class="service-list mb-4">
+                            <div class="service-list-icon"><i class="fas fa-desktop fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h4 class="text-uppercase mb-2">Round-the-clock monitoring</h4>
+                                <p>Every PC is watched 24/7. Tickets open automatically, and critical errors are fixed automatically whenever possible.</p>
+                            </div>
+                        </div>
+                        <div class="service-list mb-4">
+                            <div class="service-list-icon"><i class="fas fa-sync-alt fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h4 class="text-uppercase mb-2">Patching and upkeep</h4>
+                                <p>Critical Windows and Apple updates, drive cleanup and optimization, malware removal, and audits of your hardware and software.</p>
+                            </div>
+                        </div>
+                        <h3 class="h4 text-uppercase mb-4 mt-5">Security layers</h3>
+                        <div class="service-list mb-4">
+                            <div class="service-list-icon"><i class="fas fa-shield-alt fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h4 class="text-uppercase mb-2">Webroot endpoint protection</h4>
+                                <p>Business-grade antivirus for PCs, Macs, and servers, monitored 24/7.</p>
+                            </div>
+                        </div>
+                        <div class="service-list mb-4">
+                            <div class="service-list-icon"><i class="fas fa-user-shield fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h4 class="text-uppercase mb-2">Managed threat response</h4>
+                                <p>Threat detection and remediation, managed for you, in case something slips past.</p>
+                            </div>
+                        </div>
+                        <div class="service-list mb-4">
+                            <div class="service-list-icon"><i class="fas fa-chalkboard-teacher fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h4 class="text-uppercase mb-2">Monthly staff training</h4>
+                                <p>Security awareness training every month, with simulated phishing tests.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="h4 text-uppercase mb-4">Microsoft 365 &amp; files</h3>
+                        <div class="service-list mb-4">
+                            <div class="service-list-icon"><i class="fas fa-envelope fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h4 class="text-uppercase mb-2">Microsoft 365 Business Premium licenses</h4>
+                                <p>Included in the plan: email with a 50 GB mailbox, plus Outlook, Word, Excel, PowerPoint, Teams, SharePoint, and OneDrive with 1 TB of storage.</p>
+                            </div>
+                        </div>
+                        <div class="service-list mb-4">
+                            <div class="service-list-icon"><i class="fas fa-cloud fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h4 class="text-uppercase mb-2">Cloud file sync and share</h4>
+                                <p>Replace the office file server so your team can work from anywhere — no traditional VPN required.</p>
+                            </div>
+                        </div>
+                        <h3 class="h4 text-uppercase mb-4 mt-5">Backups</h3>
+                        <div class="service-list mb-4">
+                            <div class="service-list-icon"><i class="fas fa-database fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h4 class="text-uppercase mb-2">Encrypted nightly backups</h4>
+                                <p>Server files, email, and databases are backed up to the cloud every night with AES-256 encryption.</p>
+                            </div>
+                        </div>
+                        <div class="service-list mb-4">
+                            <div class="service-list-icon"><i class="fas fa-archive fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h4 class="text-uppercase mb-2">Email backup</h4>
+                                <p>Off-site copies of your Microsoft 365 / Exchange Online email.</p>
+                            </div>
+                        </div>
+                        <h3 class="h4 text-uppercase mb-4 mt-5">Planning &amp; reporting</h3>
+                        <div class="service-list mb-4">
+                            <div class="service-list-icon"><i class="fas fa-chart-bar fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h4 class="text-uppercase mb-2">A report every month</h4>
+                                <p>Resolved tickets, patching, antivirus results, availability, and network reliability, summarized monthly.</p>
+                            </div>
+                        </div>
+                        <div class="service-list mb-4">
+                            <div class="service-list-icon"><i class="fas fa-user-tie fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h4 class="text-uppercase mb-2">Virtual CIO reviews</h4>
+                                <p>Time set aside for budgets, project planning, vendor changes, and your technology roadmap.</p>
+                            </div>
+                        </div>
+                        <div class="service-list mb-4">
+                            <div class="service-list-icon"><i class="fas fa-sitemap fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h4 class="text-uppercase mb-2">Living network documentation</h4>
+                                <p>Your hardware, software, settings, IP addresses, and firewall, documented and kept current.</p>
+                            </div>
+                        </div>
+                        <div class="service-list mb-4">
+                            <div class="service-list-icon"><i class="fas fa-tags fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h4 class="text-uppercase mb-2">Equipment discounts</h4>
+                                <p>Discounted pricing on servers, laptops, desktops, and network equipment.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section text-center" id="industries">
+            <div class="container">
+                <h2 class="page-section-heading text-uppercase">Who we help</h2>
+                <p class="lead">Our clients are small businesses throughout the greater San Antonio and Houston areas, including offices that must follow industry rules for customer and patient data.</p>
+                <hr class="primary small mb-5" />
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-xl-4 px-md-4 mb-4">
+                        <i class="fas fa-notes-medical fa-4x mb-3"></i>
+                        <h3 class="h4 text-uppercase">Clinics and medical offices</h3>
+                        <p>HIPAA-conscious IT for practices that need secure access and protected patient records, with support that stays out of the way of patient care.</p>
+                    </div>
+                    <div class="col-md-6 col-xl-4 px-md-4 mb-4">
+                        <i class="fas fa-store fa-4x mb-3"></i>
+                        <h3 class="h4 text-uppercase">Retail</h3>
+                        <p>For stores that take card payments: PCI-aware security, dependable networks, and systems that stay running while the doors are open.</p>
+                    </div>
+                    <div class="col-md-6 col-xl-4 px-md-4 mb-4">
+                        <i class="fas fa-balance-scale fa-4x mb-3"></i>
+                        <h3 class="h4 text-uppercase">Law firms</h3>
+                        <p>Confidential client files kept safe, reliable access to documents, and support that fits how a practice operates.</p>
+                    </div>
+                    <div class="col-md-6 col-xl-4 px-md-4 mb-4">
+                        <i class="fas fa-briefcase fa-4x mb-3"></i>
+                        <h3 class="h4 text-uppercase">Professional services</h3>
+                        <p>Accountants, consultants, and other offices whose day runs on email, shared files, and remote access.</p>
+                    </div>
+                    <div class="col-md-6 col-xl-4 px-md-4 mb-4">
+                        <i class="fas fa-hard-hat fa-4x mb-3"></i>
+                        <h3 class="h4 text-uppercase">Construction</h3>
+                        <p>Contractors with people in the office and on job sites, who need files, email, and tools wherever the work is.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section" id="services">
+            <div class="container">
+                <h2 class="page-section-heading text-uppercase text-center">Projects and specialties</h2>
+                <p class="lead text-center">Beyond the monthly plan, these are areas where we regularly help.</p>
+                <hr class="primary small mb-5" />
+                <div class="row">
+                    <div class="col-lg-6 mb-5">
+                        <div class="service-list">
+                            <div class="service-list-icon"><i class="fas fa-drafting-compass fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h3 class="h4 text-uppercase mb-3">IT planning</h3>
+                                <p>We come to your location, evaluate how you work, and tailor a plan of action to fit it.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-5">
+                        <div class="service-list">
+                            <div class="service-list-icon"><i class="fas fa-desktop fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h3 class="h4 text-uppercase mb-3">Desktop support</h3>
+                                <p>No IT department? That's fine — full-time IT staff is expensive and usually unnecessary for a small business. We're here when you need us.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-5">
+                        <div class="service-list">
+                            <div class="service-list-icon"><i class="fas fa-cloud fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h3 class="h4 text-uppercase mb-3">Cloud services</h3>
+                                <p>Secure access to your data from anywhere. We pick the cloud tools that fit your company, so your team can work from the office or from home.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-5">
+                        <div class="service-list">
+                            <div class="service-list-icon"><i class="fas fa-lock fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h3 class="h4 text-uppercase mb-3">IT security</h3>
+                                <p>From access control to top-tier firewalls. Working toward PCI or HIPAA requirements? We'll review where you stand and help you put the right controls in place.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-5">
+                        <div class="service-list">
+                            <div class="service-list-icon"><i class="fas fa-wifi fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h3 class="h4 text-uppercase mb-3">Network infrastructure</h3>
+                                <p>Most businesses run on their network. We set it up, implement it, and support it — company Wi-Fi included.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-5">
+                        <div class="service-list">
+                            <div class="service-list-icon"><i class="far fa-hdd fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h3 class="h4 text-uppercase mb-3">Backup and disaster recovery</h3>
+                                <p>We find a backup solution that fits your budget and build a disaster recovery plan, so a ransomware attack or failed server doesn't stop the business.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section bg-light" id="security">
+            <div class="container">
+                <h2 class="page-section-heading text-uppercase text-center">Security basics, done consistently</h2>
+                <p class="lead text-center">Most incidents start small: a reused password, a missed update, a backup nobody tested. We put the fundamentals in place and keep them there.</p>
+                <hr class="primary small mb-5" />
+                <div class="row">
+                    <div class="col-lg-6 mb-5">
+                        <div class="service-list">
+                            <div class="service-list-icon"><i class="fas fa-user-shield fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h3 class="h4 text-uppercase mb-3">Multi-factor authentication</h3>
+                                <p>We switch on MFA for email, Microsoft 365, and your other key logins, so a stolen password alone can't get anyone in.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-5">
+                        <div class="service-list">
+                            <div class="service-list-icon"><i class="fas fa-laptop fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h3 class="h4 text-uppercase mb-3">Protected computers</h3>
+                                <p>Business-grade protection on every laptop and desktop, kept up to date against ransomware and other malware.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-5">
+                        <div class="service-list">
+                            <div class="service-list-icon"><i class="fas fa-server fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h3 class="h4 text-uppercase mb-3">Backups you can restore</h3>
+                                <p>Backups that actually restore, plus a recovery plan for ransomware or a failed server.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-5">
+                        <div class="service-list">
+                            <div class="service-list-icon"><i class="fas fa-chalkboard-teacher fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h3 class="h4 text-uppercase mb-3">A team that spots scams</h3>
+                                <p>Plain-language training that helps your people recognize phishing and other scams before they click.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-5">
+                        <div class="service-list">
+                            <div class="service-list-icon"><i class="fas fa-clipboard-check fa-3x"></i></div>
+                            <div class="service-list-content">
+                                <h3 class="h4 text-uppercase mb-3">Help with compliance</h3>
+                                <p>Working toward PCI or HIPAA requirements? We'll assess where you are and help you put the right controls in place — the free IT assessment is a good place to start.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section" id="about">
+            <div class="container">
+                <h2 class="page-section-heading text-uppercase text-center">Meet the owner</h2>
+                <hr class="primary small mb-5" />
+                <div class="row align-items-center">
+                    <div class="col-md-4 text-center mb-4 mb-md-0">
+                        <img class="about-photo" src="assets/img/john-cranford.jpg" alt="John Cranford, owner of Peak Technology Services." />
+                        <p class="mt-3 mb-0 font-weight-bold text-uppercase">John Cranford, Owner</p>
+                    </div>
+                    <div class="col-md-8">
+                        <p>I'm John Cranford, owner of Peak Technology Services. I built this company so small businesses in the San Antonio and Houston areas could have what larger companies take for granted: an IT partner who knows their setup, answers the phone, and doesn't vanish into a ticket queue.</p>
+                        <p>For nearly 20 years I've helped local businesses with day-to-day support, networks, security, and backups. We're members of the Schertz Chamber of Commerce and work with companies across the greater San Antonio and Houston areas.</p>
+                        <p class="mb-0">If your IT today is whoever happens to be available plus late-night searches for answers, let's talk.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="callout text-white text-center" id="assessment">
+            <div class="container">
+                <h2 class="page-section-heading text-uppercase">Start with a free IT assessment</h2>
+                <p class="lead mx-auto" style="max-width: 42rem;">We'll visit your location, look at how your team works, and give you a straight answer on what's working, what needs attention, and what we'd tackle first. There's no obligation.</p>
+                <div class="booking-card mx-auto mt-4 text-left">
+                    <form id="booking-form" novalidate>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="bf-name">Name *</label>
+                                <input class="form-control" id="bf-name" name="name" type="text" maxlength="100" autocomplete="name" required />
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="bf-company">Company *</label>
+                                <input class="form-control" id="bf-company" name="company" type="text" maxlength="150" autocomplete="organization" required />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="bf-email">Email *</label>
+                                <input class="form-control" id="bf-email" name="email" type="email" maxlength="254" autocomplete="email" required />
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="bf-phone">Phone *</label>
+                                <input class="form-control" id="bf-phone" name="phone" type="tel" maxlength="40" autocomplete="tel" required />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="bf-users">Number of users <span class="text-muted">(optional)</span></label>
+                                <input class="form-control" id="bf-users" name="users" type="number" min="1" max="99999" inputmode="numeric" />
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="bf-time">Preferred contact time <span class="text-muted">(optional)</span></label>
+                                <input class="form-control" id="bf-time" name="contactTime" type="text" maxlength="100" placeholder="e.g. weekday mornings" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="bf-message">How can we help? *</label>
+                            <textarea class="form-control" id="bf-message" name="message" rows="4" maxlength="4000" required></textarea>
+                        </div>
+                        <div class="bf-hp" aria-hidden="true">
+                            <label for="bf-website">Leave this field empty</label>
+                            <input id="bf-website" name="website" type="text" tabindex="-1" autocomplete="off" />
+                        </div>
+                        <div id="bf-turnstile" class="mb-3"></div>
+                        <button class="btn btn-primary btn-lg" id="bf-submit" type="submit">Book a free IT assessment</button>
+                        <div id="bf-status" class="mt-3" role="status" aria-live="polite"></div>
+                    </form>
+                </div>
+                <p class="mt-4 mb-1">Rather talk it through? Call <a class="text-white" href="tel:+12106091937">210-609-1937</a></p>
+                <p class="mb-0">Or email <a class="text-white" href="mailto:john@peaktechsvc.com">john@peaktechsvc.com</a></p>
+            </div>
+        </section>
+        <script>
+            (function () {
+                // Booking Worker + Turnstile widget "peaktex-booking".
+                var BOOKING_ENDPOINT = "https://peaktex-booking.john-60c.workers.dev/";
+                var TURNSTILE_SITEKEY = "0x4AAAAAAGKxW6q71VkjMK3L";
+                var form = document.getElementById("booking-form");
+                var statusEl = document.getElementById("bf-status");
+                var btn = document.getElementById("bf-submit");
+                var widgetId = null;
+                window.onTurnstileLoad = function () {
+                    widgetId = window.turnstile.render("#bf-turnstile", { sitekey: TURNSTILE_SITEKEY, action: "assessment" });
+                };
+                function show(msg, ok) {
+                    statusEl.className = "mt-3 alert " + (ok ? "alert-success" : "alert-danger");
+                    statusEl.textContent = msg;
+                }
+                form.addEventListener("submit", function (e) {
+                    e.preventDefault();
+                    var fields = ["name", "company", "email", "phone", "message"];
+                    var bad = fields.filter(function (n) { var el = form.elements[n]; el.classList.toggle("is-invalid", !el.checkValidity() || !el.value.trim()); return el.classList.contains("is-invalid"); });
+                    if (bad.length) { show("Please fill in the highlighted fields.", false); form.elements[bad[0]].focus(); return; }
+                    var data = {};
+                    new FormData(form).forEach(function (v, k) { data[k] = v; });
+                    data.page = location.href;
+                    btn.disabled = true; btn.textContent = "Sending...";
+                    fetch(BOOKING_ENDPOINT, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data) })
+                        .then(function (r) { return r.json().catch(function () { return { ok: false }; }); })
+                        .then(function (res) {
+                            if (res.ok) { form.reset(); show("Thanks! Your request was sent. John will get back to you shortly.", true); }
+                            else {
+                                (res.fields || []).forEach(function (n) { if (form.elements[n]) form.elements[n].classList.add("is-invalid"); });
+                                show(res.error || "Something went wrong. Please call 210-609-1937 or email john@peaktechsvc.com.", false);
+                            }
+                        })
+                        .catch(function () { show("We couldn't send your request. Please call 210-609-1937 or email john@peaktechsvc.com.", false); })
+                        .finally(function () {
+                            btn.disabled = false; btn.textContent = "Book a free IT assessment";
+                            if (window.turnstile && widgetId !== null) window.turnstile.reset(widgetId);
+                        });
+                });
+            })();
+        </script>
+        <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onTurnstileLoad&render=explicit" async defer></script>
+        <footer class="footer text-center text-white-50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h3 class="h5 text-uppercase"><i class="fas fa-mobile-alt fa-fw"></i> Call</h3>
+                        <a class="text-white-50" href="tel:+12106091937">210-609-1937</a>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h3 class="h5 text-uppercase"><i class="fas fa-map-marker-alt fa-fw"></i> Our Office</h3>
+                        <div>Houston/The Woodlands Office<br />
                         8708 Technology Forest PL<br />
                         Suite 175<br />
-                        The Woodlands, TX, 77381
+                        The Woodlands, TX, 77381</div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3 class="h5 text-uppercase"><i class="fas fa-envelope fa-fw"></i> Email</h3>
+                        <a class="text-white-50" href="mailto:john@peaktechsvc.com">john@peaktechsvc.com</a>
+                    </div>
+                    <div class="col-lg-4" id="mni-membership-637851398031609953"></div>
+                    <div class="footer-social">
+                        <a class="px-3 text-white-50" href="https://www.facebook.com/peaktechsvc"><i class="fab fa-facebook-f fa-2x fa-fw"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <h5 class="text-uppercase">
-                        <i class="fas fa-envelope fa-fw"></i>
-                        Email
-                    </h5>
-                    <a class="text-white-50" href="mailto:John@peaktechsvc.com">contact@peaktechsvc.com</a>
+                <div class="footer-areas mt-4">
+                    <h3 class="h5 text-uppercase">Local IT support pages</h3>
+                    <p class="mb-0">
+                        <a class="text-white-50" href="it-support-the-woodlands-tx.html">The Woodlands</a> ·
+                        <a class="text-white-50" href="it-support-spring-tx.html">Spring</a> ·
+                        <a class="text-white-50" href="it-support-shenandoah-tx.html">Shenandoah</a> ·
+                        <a class="text-white-50" href="it-support-klein-tx.html">Klein</a>
+                    </p>
                 </div>
-				<div class="col-lg-4" id="mni-membership-637851398031609953"></div>
-
-				            <div class="footer-social">
-                <a class="px-3 text-white-50" href="https://www.facebook.com/peaktechsvc"><i class="fab fa-facebook-f fa-2x fa-fw"></i></a>
+                <div class="footer-copyright">&copy; 2026 Peak Technology Services</div>
             </div>
-            </div>
-            <div class="footer-copyright">&copy; 2021 Peak Technology Services</div>
-        </div>
-    </footer>
-	<script defer src="https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js" id="tcx-callus-js"></script>
-	<script src="https://schertzchamber.chambermaster.com/Content/Script/Member.js" type="text/javascript"></script>
-	<script type="text/javascript">
-	new MNI.Widgets.Member("mni-membership-637851398031609953",{member:3701,styleTemplate:"#@id{text-align:center;position:relative}#@id .mn-widget-member-name{font-weight:700}#@id .mn-widget-member-logo{max-width:100%}"}).create();
-	</script>
-    <!-- Bootstrap core JavaScript-->
-    <script src="assets/plugins/jquery/jquery.min.js"></script>
-    <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- Plugin JavaScript-->
-    <script src="assets/plugins/fancybox/jquery.fancybox.min.js"></script>
-    <script src="assets/plugins/jquery-easing/jquery.easing.min.js"></script>
-    <script src="assets/plugins/slick-carousel/slick.min.js"></script>
-    <!-- Custom scripts for this theme-->
-	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script src="js/scripts.js"></script>
-</body>
+        </footer>
+        <script src="https://schertzchamber.chambermaster.com/Content/Script/Member.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        new MNI.Widgets.Member("mni-membership-637851398031609953",{member:3701,styleTemplate:"#@id{text-align:center;position:relative}#@id .mn-widget-member-name{font-weight:700}#@id .mn-widget-member-logo{max-width:100%}"}).create();
+        </script>
+        <script src="assets/plugins/jquery/jquery.min.js"></script>
+        <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/plugins/fancybox/jquery.fancybox.min.js"></script>
+        <script src="assets/plugins/jquery-easing/jquery.easing.min.js"></script>
+        <script src="assets/plugins/slick-carousel/slick.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script defer src="https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js" id="tcx-callus-js"></script>
+    </body>
+</html>
